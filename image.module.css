@@ -1,0 +1,19 @@
+.imageContainer {
+  width: 85%;
+  padding: 1rem;
+  margin: 1rem auto;
+  height: auto;
+  border-radius: 10px;
+}
+.caption {
+  padding-top: 1rem;
+  opacity: 0.75;
+  text-align: center;
+  width: full;
+}
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-color: white;
+}
