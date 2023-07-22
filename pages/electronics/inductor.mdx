@@ -1,0 +1,39 @@
+import Image from "@/components/Image";
+
+# Inductor
+**Contents:**\
+[1. What is a Inductor?](#what-is-a-inductor)\
+[2. Inductor Symbol](#inductor-symbol)\
+[3. How does it work in DC circuits?](#how-does-it-work-in-dc-circuits)\
+[4. How does it work in AC circuits?](#how-does-it-work-in-ac-circuits)
+
+## What is a Inductor?
+
+**The Inductor**: An Inductor is a passive electrical component consisting of a coil of
+wire which is designed to take advantage of the relationship between magentism and
+electricity as a result of an electric current passing through the coil
+
+## Inductor Symbol
+
+<Image src="/inductorSymbols.gif" caption="Inductor Symbols" />
+
+The symbol represents an inductor in circuit diagrams. It consists of two parallel
+lines that coil around, symbolizing the coiled wire used in the inductor's construction.
+
+## How does it work in DC circuits?
+
+In DC circuits, where a constant current flows, the inductor acts as a short circuit once it becomes fully charged with magnetic energy. Initially, when the DC supply is connected, the inductor's <span style={{color: "hsl(var(--nextra-primary-hue)100% 60%/var(--tw-text-opacity))"}}> current rises gradually </span>, and it behaves like a resistor, offering resistance to the flow of current. However, once the inductor reaches its maximum magnetic energy storage capacity, it allows the current to flow unimpeded.
+
+<Image src="/Inductor_DC_AtStart.gif" caption="Inductor in DC circuit (Current and time)" />
+
+It's important to note that in DC circuits, inductors may experience a brief voltage spike when the circuit is turned off due to the collapse of the magnetic field, which can potentially damage other components. To mitigate this, a diode called a "flyback diode" is often used to protect the circuit.
+
+In conclusion, electronic inductors play a crucial role in electronic circuits by storing energy in their magnetic fields. Understanding their behavior in both AC and DC circuits is essential for designing and analyzing complex electronic systems effectively.
+
+## How does it work in AC circuits?
+
+When an alternating current (AC) flows through an inductor, the changing magnetic field around the coil induces a back EMF (Electromotive Force) that opposes the flow of current. This property causes inductors to behave differently from resistors and capacitors in AC circuits.
+
+<Image src="/Inductor_AC_AtStart.png" caption="Inductor in AC circuit (Current and time)" />
+
+During the positive half-cycle of AC, the inductor's magnetic field builds up, storing energy. In the negative half-cycle, the magnetic field collapses, releasing the stored energy. This behavior results in a phase shift between the voltage and current across the inductor
