@@ -1,0 +1,66 @@
+{
+  "index": {
+    "title": "Introduction"
+  },
+
+  "---PC---": {
+    "title": "Passive Components",
+    "type": "separator"
+  },
+  "resistor": {
+    "title": "Resistor"
+  },
+  "capacitor": {
+    "title": "Capacitor"
+  },
+  "inductor": {
+    "title": "Inductor"
+  },
+  "transformer": {
+    "title": "Transformer"
+  },
+
+  "---SC---": {
+    "title": "Switching Components",
+    "type": "separator"
+  },
+  "switches": {
+    "title": "Switches"
+  },
+  "relay": {
+    "title": "Relay"
+  },
+
+  "---PR-C---": {
+    "title": "Protective Components",
+    "type": "separator"
+  },
+  "fuses": {
+    "title": "Fuses"
+  },
+  "diode": {
+    "title": "Diode"
+  },
+  
+  "---AC---": {
+    "title": "Active Components",
+    "type": "separator"
+  },
+  "transistor": {
+    "title": "Transistor"
+  },
+
+  "---SP-C---": {
+    "title": "Special Components",
+    "type": "separator"
+  },
+  "thyristor": {
+    "title": "Thyristor"
+  },
+  "diac": {
+    "title": "Diac"
+  },
+  "traic": {
+    "title": "Traic"
+  }
+}
