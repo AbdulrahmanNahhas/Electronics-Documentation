@@ -5,7 +5,7 @@ const config: DocsThemeConfig = {
   logo: <span>Nahhas Hub</span>,
   docsRepositoryBase: "https://github.com/AbdulrahmanNahhas/nahhas-hub",
   project: {
-    link: 'https://gitlab.com/AbdulrahmanNahhas/nahhas-hub',
+    link: 'https://github.com/AbdulrahmanNahhas/nahhas-hub',
   },
   useNextSeoProps() {
     return {
