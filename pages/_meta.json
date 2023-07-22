@@ -1,0 +1,16 @@
+{
+  "*": {
+    "theme": {
+      "footer": false
+    }
+  },
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "electronics": {
+    "title": "E-Components",
+    "type": "page"
+    
+  }
+}
