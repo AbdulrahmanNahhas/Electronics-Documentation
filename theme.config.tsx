@@ -3,7 +3,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   logo: <span>Nahhas Hub</span>,
-  docsRepositoryBase: "https://github.com/AbdulrahmanNahhas/nahhas-hub",
+  docsRepositoryBase: "https://github.com/AbdulrahmanNahhas/nahhas-hub/tree/main",
   project: {
     link: 'https://github.com/AbdulrahmanNahhas/nahhas-hub',
   },
