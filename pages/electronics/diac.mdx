@@ -1,11 +1,12 @@
 import Image from "@/components/Image";
 
+<Image src="/Diac-Cover.png" caption="Diac Image" />
+
 # Diac
 **Contents:**\
 [1. What is a Diac?](#what-is-a-resistor)\
+[2. How does Diac work?](#how-does-diac-work)
 [2. Diac Symbol](#resistor-symbol)
-
-<Image src="/Diac-Cover.png" caption="Diac Image" />
 
 ## What is a Diac?
 
@@ -13,7 +14,13 @@ It is an electronic component that is very similar to a diode, but there are two
 1. A DIAC can conduct current in <span style={{color:"hsl(var(--nextra-primary-hue)100% 60%/var(--tw-text-opacity))"}}>both directions</span>.
 2. The DIAC needs a voltage <span style={{color:"hsl(var(--nextra-primary-hue)100% 60%/var(--tw-text-opacity))"}}>greater than the diode voltage (0.7)</span> to move to the ON state
 
-<Image src="/diac-voltage-current-characteristic-graph.svg" caption="DIAC voltage- current characteristic" />
+## How does it work?
+
+When applying a voltage to the Diac, it will not allow current to flow through it until the voltage reaches a certain threshold called Vbr (breakdown voltage).
+
+When the Diac is forward-biased (opened), it allows current to flow through it, and the voltage across its terminals decreases from Vbr to Von (on-state voltage).
+
+<Image src="/diac-how-it-work.png" caption="How does diac work?" />
 
 ## Diac Symbol
 
