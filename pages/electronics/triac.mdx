@@ -13,7 +13,27 @@ The Triac switches to an OFF state under the following conditions:
 1. When the voltage across the Triac becomes reverse-biased, meaning the positive voltage becomes negative and vice versa.
 2. When the power supply is completely removed.
 3. By shorting the two terminals of the Triac using a small resistor or a switch.
+4. It also turns OFF if a weak current flows through it, known as the minimum holding current (Ih).
 
 ## Triac Symbol
 
 <Image src="/TRIAC-Symbol.png" caption="Triac Symbol" />
+
+## Triac Problem: Gate Signal Variations
+
+### The Problem:
+
+One of the drawbacks of the Triac is that the gate signal magnitude differs depending on whether it is positive or negative. In other words, the turn-on voltage for the positive half-wave may differ from that of the negative half-wave in most cases.
+
+For instance, it may require 4 volts positive to trigger the Triac in one half-wave and 7 volts positive in the other half-wave.
+
+### First Solution:
+
+To address this issue, a diac is often placed at the Triac's gate. The diac ensures that the Triac's gate receives a voltage signal only when the diac is already conducting and possesses symmetrical values for both positive and negative triggering. This ensures more consistent and reliable triggering of the Triac, regardless of the half-wave polarity.
+
+### Second Solution (Quadrac):
+
+<Image src="/Quadrac.jpeg" caption="Quadrac Symbol" />
+
+Quadrac: An electronic component that combines Triac and Diac characteristics, allowing bidirectional current conduction with precise and symmetrical triggering for efficient AC power control.
+
