@@ -9,8 +9,12 @@
     "type": "page"
   },
   "electronics": {
-    "title": "E-Components",
+    "title": "Components",
     "type": "page"
-    
+    "href": "/components"
+  },
+  "circuits": {
+    "title": "Circuits",
+    "type": "page"
   }
 }
