@@ -1,5 +1,5 @@
 import Image from "@/components/Image"
-import { Card, Cards } from "nextra-theme-docs";
+import { Card, Cards, TabTtab, FileTree } from "nextra-theme-docs";
 
 # What is a Transistor?
 
@@ -15,5 +15,20 @@ There are two main types of transistors:
   <Card title="Resistor" href="/electronics/transistor/BJT" />
   <Card title="Inductor" href="/electronics/transistor/FET" />
 </Cards>
+<FileTree>
+  <FileTree.Folder name="Fixed resistors" defaultOpen>
+    <FileTree.File name="Carbon composition" />
+    <FileTree.File name="Carbon film" />
+    <FileTree.File name="Metal oxide film resistor" />
+    <FileTree.File name="Metal film resistor" />
+    <FileTree.File name="Wire wound resistor" />
+    <FileTree.File name="Surface mount resistors" />
+  </FileTree.Folder>
+  <FileTree.Folder name="Variable resistors" defaultOpen>
+    <FileTree.File name="Light dependent resistor / photoresistor" />
+    <FileTree.File name="Thermistor" />
+    <FileTree.File name="Varistor" />
+  </FileTree.Folder>
+</FileTree>
 
 <Image src="" caption="..." />
