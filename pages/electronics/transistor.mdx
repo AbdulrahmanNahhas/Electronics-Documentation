@@ -1,34 +1,42 @@
-import Image from "@/components/Image"
-import { Card, Cards, TabTtab, FileTree } from "nextra-theme-docs";
+import Image from "@/components/Image";
+import { Card, Cards, FileTree } from "nextra-theme-docs";
 
 # What is a Transistor?
 
 Transistors are small electronic components used extensively in electronic circuits for two main functions:
+
 1. **Switching:** Transistors act as switches, allowing current to flow or preventing it from flowing through a circuit. By controlling the current flow, transistors can turn circuits on and off rapidly, making them essential for digital logic and microcontroller applications.
 2. **Amplification:** Transistors also serve as amplifiers, where a small input signal can be used to control a much larger output signal. This property is vital for signal processing and audio amplification in various electronic devices.
 
 ## Types of Transistors
 
-Transistors can be broadly categorized into two main types:
 There are two main types of transistors:
-<Cards>
-  <Card title="Resistor" href="/electronics/transistor/BJT" />
-  <Card title="Inductor" href="/electronics/transistor/FET" />
-</Cards>
-<FileTree>
-  <FileTree.Folder name="Fixed resistors" defaultOpen>
-    <FileTree.File name="Carbon composition" />
-    <FileTree.File name="Carbon film" />
-    <FileTree.File name="Metal oxide film resistor" />
-    <FileTree.File name="Metal film resistor" />
-    <FileTree.File name="Wire wound resistor" />
-    <FileTree.File name="Surface mount resistors" />
-  </FileTree.Folder>
-  <FileTree.Folder name="Variable resistors" defaultOpen>
-    <FileTree.File name="Light dependent resistor / photoresistor" />
-    <FileTree.File name="Thermistor" />
-    <FileTree.File name="Varistor" />
-  </FileTree.Folder>
-</FileTree>
 
-<Image src="" caption="..." />
+### Bipolar Junction Transistor (BJT)
+
+BJTs are three-layer semiconductor devices with two types: **NPN** and **PNP** transistors. They consist of a thin, lightly doped layer (base) sandwiched between two heavily doped layers (emitter and collector). BJT transistors are commonly used in digital logic circuits, amplifiers, and switching applications.
+
+BJT Transistor Symbol
+
+### Field-Effect Transistor (FET)
+
+FETs are three-terminal devices that use an electric field to control the flow of current. They are categorized into two types: **Junction Field-Effect Transistors (JFETs)** and **Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs)**. FETs find extensive use in integrated circuits, power amplifiers, and high-frequency applications.
+
+## Links
+
+<Cards>
+  <div>
+    <Card title="BJT Transistor" href="/electronics/transistor/BJT" style={{borderRadius: "6px 6px 0 0", display: "block", textAlign: "center !important"}} />
+    <div style={{padding: "7.5px", display: "flex", gap: "7.5px", border: "1px solid color(srgb 0.8962 0.9062 0.9233)", borderTop: "none", borderRadius: "0 0 6px 6px"}}>
+      <Card style={{flex: "1"}} title="NPN" href="/electronics/transistor/BJT/NPN" />
+      <Card style={{flex: "1"}} title="PNP" href="/electronics/transistor/BJT/PNP" />
+    </div>
+  </div>
+  <div>
+    <Card title="FET Transistor" href="/electronics/transistor/FET" style={{borderRadius: "6px 6px 0 0", display: "block", textAlign: "center !important"}} />
+    <div style={{padding: "7.5px", display: "flex", gap: "7.5px", border: "1px solid color(srgb 0.8962 0.9062 0.9233)", borderTop: "none", borderRadius: "0 0 6px 6px"}}>
+      <Card style={{flex: "1"}} title="J-FET" href="/electronics/transistor/FET/JFET" />
+      <Card style={{flex: "1"}} title="MOS-FET" href="/electronics/transistor/FET/MOSFET" />
+    </div>
+  </div>
+</Cards>
